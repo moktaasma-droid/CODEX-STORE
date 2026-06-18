@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Codex Store - প্রিমিয়াম ডিজিটাল সল্যুশন</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    body { font-family: 'Segoe UI', system-ui, sans-serif; }
+    .hero-bg { background: linear-gradient(135deg, #1a1a1a 0%, #4a0000 100%); }
+    .red-glow { text-shadow: 0 0 20px #ef4444; }
+  </style>
+</head>
+<body class="bg-zinc-950 text-white">
+
+  <!-- Navbar -->
+  <nav class="fixed top-0 w-full bg-zinc-900/90 backdrop-blur-md z-50 border-b border-red-900">
+    <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+      <h1 class="text-3xl font-bold tracking-tight">
+        <span class="text-red-500">Codex</span> Store
+      </h1>
+      
+      <div class="hidden md:flex gap-8 text-lg">
+        <a href="#home" class="hover:text-red-500 transition">Home</a>
+        <a href="#about" class="hover:text-red-500 transition">About</a>
+        <a href="#services" class="hover:text-red-500 transition">Services</a>
+        <a href="#contact" class="hover:text-red-500 transition">Contact</a>
+      </div>
+
+      <a href="https://t.me/imahackerZ" target="_blank"
+         class="bg-red-600 hover:bg-red-700 px-6 py-3 rounded-xl font-semibold flex items-center gap-2 transition">
+        <i class="fab fa-telegram"></i> Join Telegram
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-bg min-h-screen flex items-center pt-20">
+    <div class="max-w-7xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h2 class="text-6xl md:text-7xl font-bold leading-tight red-glow">
+          প্রিমিয়াম কোড ও<br>ডিজিটাল সল্যুশন
+        </h2>
+        <p class="text-xl text-zinc-400 mt-6">
+          Telegram bots, Web Apps, Custom Software, Scripts এবং আরও অনেক কিছু এক জায়গায়।
+        </p>
+        <div class="mt-10 flex flex-wrap gap-4">
+          <a href="#services" 
+             class="bg-red-600 hover:bg-red-700 px-8 py-4 rounded-2xl text-lg font-semibold transition">
+            Services দেখুন
+          </a>
+          <a href="https://t.me/imahackerZ" target="_blank"
+             class="border border-red-600 hover:bg-red-600/10 px-8 py-4 rounded-2xl text-lg font-semibold transition flex items-center gap-2">
+            <i class="fab fa-telegram"></i> Telegram-এ যোগ দিন
+          </a>
+        </div>
+      </div>
+      <div class="flex justify-center">
+        <div class="text-8xl">💻</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="py-24 bg-zinc-900">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-5xl font-bold text-center mb-12">About Us</h2>
+      <div class="max-w-3xl mx-auto text-center text-zinc-300 text-lg">
+        <p>
+          Codex Store হলো একটি প্রিমিয়াম ডিজিটাল স্টোর। আমরা উন্নতমানের Telegram bots, ওয়েব অ্যাপ্লিকেশন, 
+          কাস্টম স্ক্রিপ্ট এবং সফটওয়্যার সল্যুশন তৈরি করে থাকি।
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="py-24">
+    <div class="max-w-7xl mx-auto px-6">
+      <h2 class="text-5xl font-bold text-center mb-16">Our Services</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-zinc-900 p-8 rounded-3xl border border-red-900 hover:border-red-500 transition">
+          <i class="fab fa-telegram text-5xl text-red-500 mb-6"></i>
+          <h3 class="text-2xl font-semibold">Telegram Bots</h3>
+          <p class="text-zinc-400 mt-3">অটোমেটেড বট, শপিং বট, ম্যানেজমেন্ট বট, গেম বট ইত্যাদি।</p>
+        </div>
+        <div class="bg-zinc-900 p-8 rounded-3xl border border-red-900 hover:border-red-500 transition">
+          <i class="fas fa-globe text-5xl text-red-500 mb-6"></i>
+          <h3 class="text-2xl font-semibold">Web Applications</h3>
+          <p class="text-zinc-400 mt-3">রেসপনসিভ ওয়েবসাইট, ড্যাশবোর্ড, অনলাইন টুলস।</p>
+        </div>
+        <div class="bg-zinc-900 p-8 rounded-3xl border border-red-900 hover:border-red-500 transition">
+          <i class="fas fa-code text-5xl text-red-500 mb-6"></i>
+          <h3 class="text-2xl font-semibold">Custom Scripts</h3>
+          <p class="text-zinc-400 mt-3">অটোমেশন স্ক্রিপ্ট, ওয়েব স্ক্র্যাপার, ডেটা টুলস।</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="py-24 bg-zinc-900">
+    <div class="max-w-4xl mx-auto px-6">
+      <h2 class="text-5xl font-bold text-center mb-12">Contact Us</h2>
+      <div class="bg-zinc-950 p-10 rounded-3xl border border-red-900">
+        <form id="contactForm" class="space-y-6">
+          <input type="text" id="name" placeholder="আপনার নাম" required
+                 class="w-full bg-zinc-900 border border-zinc-700 rounded-2xl px-6 py-4 focus:outline-none focus:border-red-500">
+          <input type="email" id="email" placeholder="ইমেইল" required
+                 class="w-full bg-zinc-900 border border-zinc-700 rounded-2xl px-6 py-4 focus:outline-none focus:border-red-500">
+          <textarea id="message" placeholder="আপনার মেসেজ" rows="5" required
+                    class="w-full bg-zinc-900 border border-zinc-700 rounded-2xl px-6 py-4 focus:outline-none focus:border-red-500"></textarea>
+          <button type="submit" 
+                  class="w-full bg-red-600 hover:bg-red-700 py-5 rounded-2xl text-xl font-semibold transition">
+            Send Message
+          </button>
+        </form>
+      </div>
+      <div class="text-center mt-10">
+        <p class="text-zinc-400">অথবা সরাসরি যোগাযোগ করুন:</p>
+        <a href="https://t.me/imahackerZ" target="_blank"
+           class="inline-flex items-center gap-3 bg-zinc-800 hover:bg-red-900/30 border border-red-500 px-8 py-4 rounded-2xl mt-4 text-xl">
+          <i class="fab fa-telegram text-3xl"></i>
+          <span>@imahackerZ</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black py-12 border-t border-red-900">
+    <div class="max-w-7xl mx-auto px-6 text-center">
+      <p class="text-zinc-500">© 2026 Codex Store. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scrolling
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function(e) {
+        if (this.getAttribute('href').length > 1) {
+          e.preventDefault();
+          document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+        }
+      });
+    });
+
+    // Contact Form Handling
+    document.getElementById('contactForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const name = document.getElementById('name').value;
+      const email = document.getElementById('email').value;
+      const message = document.getElementById('message').value;
+
+      if (name && email && message) {
+        alert(`✅ ধন্যবাদ ${name}!\n\nআপনার মেসেজ আমরা পেয়েছি।\n\nআমাদের টেলিগ্রামে যোগাযোগ করুন: @imahackerZ`);
+        
+        // Reset form
+        this.reset();
+      }
+    });
+  </script>
+</body>
+</html>
